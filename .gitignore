@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Next.js
+.next/
+out/
+
+# Production
+build/
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files — JANGAN commit ke Git
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment variables
+.env.local
+.env.*.local
+
+# Python / Translation Service
+venv/
+.venv/
+env/
+translation_service/venv*/
+translation_service/.venv*/
+translation_service/model_cache/
+model_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pt
+*.bin
+*.safetensors
+*.onnx
+.pytest_cache/
+
+# Raw and processed dataset files (heavy binaries/CSVs)
+src/data/raw/
+src/data/processed/
+data/
+*.pdf
+
+# Environment variables
+.env*
+!.env.example
+
+# Python virtual environment
+.venv/
+backend/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local AI model/cache
+.cache/
+models/
